@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(48, 10, 70);
+}
+
+.Texto {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*estilo da fonte*/
+    font-size: 20px;
+    /*tamanho da fonte*/
+    color: rgb(255, 255, 255);
+    /*cor da fonte*/
+    line-height: 20px;
+    /*altura entre linhas*/
+    font-style: oblique;
+    /*estilo da fonte*/
+    font-weight: bolder;
+    /*largura da fonte*/
+    text-align: center;
+    /*alinha o texto*/
+
+
+
+
+}
+
+.Texto a {
+    /*referencia todos os links (<a>) dentro da class .texto*/
+    color: goldenrod;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.border {
+    color: white;
+    width: 500px;
+    font-size: 20px;
+    border: 5px solid gold;
+    /*tamanho, tipo, cor*/
+    margin: 50px ;
+    /*espaçamento com os item de fora*/
+    margin-top: 50px;;
+    padding: 50px;
+    /*espaçamento com os itme dentro*/
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+.lista{
+    list-style-position: inside;
+    list-style-type: square; 
+    color: white;
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+
+
+
